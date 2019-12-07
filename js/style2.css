@@ -1,0 +1,60 @@
+@font-face {
+    src: url(ObjectSans-Regular.otf);
+    font-family: 'acetate';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(ObjectSans-Slanted.otf);
+    font-family: 'service';
+    font-weight: bold;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.works {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    font-family: 'acetate';
+    bottom: 1%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.clients {
+    height: 100%;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    text-align: justify;
+}
+
+.clients h3 {
+    color: honeydew;
+    font-family: 'acetate';
+}    
+
+.clients a {
+    text-decoration: none;
+    color: honeydew;
+    font-family: 'service';
+}

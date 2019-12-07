@@ -1,0 +1,157 @@
+@font-face {
+    src: url(ObjectSans-Regular.otf);
+    font-family: 'acetate';
+    font-weight: bold;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.iramax.left {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: rgba(240, 52, 52, 0.5);
+
+}
+
+.left h4 {
+    color: white;
+}
+
+.iramax.right {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: rgba(41, 241, 195, 0.5);
+}
+
+.right h4 {
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'acetate';
+}
+
+.contacts {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    font-family: 'acetate';
+}
+
+.print {
+    position: absolute;
+    z-index: 5;
+    text-align: left;
+    font-family: 'acetate';
+    left: 2%;
+}
+
+.painting {
+    position: absolute;
+    z-index: 5;
+    text-align: right;
+    font-family: 'acetate';
+    right: 2%;
+}
+
+.about {
+    position: absolute;
+    z-index: 5;
+    left: 2%;
+    font-family: 'acetate';
+    bottom: 1%;
+}
+
+.since {
+    position: absolute;
+    z-index: 5;
+    right: 2%;
+    font-family: 'acetate';
+    bottom: 1%;
+}
+
+.works {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    font-family: 'acetate';
+    bottom: 1%;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.clients {
+    height: 100%;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    text-align: justify;
+}
+
+.clients h3 {
+    color: honeydew;
+    font-family: 'acetate';
+}    
+
+.info {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    right: 0;
+    background-color: transparent;
+    text-align: justify;
+}
+
+.info h2 {
+    color: tomato;
+    font-family: 'acetate';
+}   
+
+.info a {
+    text-decoration: none;
+    color: tomato;    
+}
+
