@@ -52,7 +52,7 @@ body {
     font-family: 'acetate';
 }
 
-.contacts {
+.shop {
     position: absolute;
     width: 100%;
     z-index: 5;
@@ -60,7 +60,7 @@ body {
     font-family: 'acetate';
 }
 
-.print {
+.about {
     position: absolute;
     z-index: 5;
     text-align: left;
@@ -68,7 +68,7 @@ body {
     left: 2%;
 }
 
-.painting {
+.contact {
     position: absolute;
     z-index: 5;
     text-align: right;
@@ -76,7 +76,7 @@ body {
     right: 2%;
 }
 
-.about {
+.company {
     position: absolute;
     z-index: 5;
     left: 2%;
@@ -105,53 +105,3 @@ body {
     text-decoration: none;
     color: black;
 }
-
-.clients {
-    height: 100%;
-    width: 90%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    left: 0;
-    right: 0;
-    background-color: transparent;
-    text-align: justify;
-}
-
-.clients h3 {
-    color: honeydew;
-    font-family: 'acetate';
-}    
-
-.info {
-    height: 100%;
-    width: 40%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow: hidden;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    right: 0;
-    background-color: transparent;
-    text-align: justify;
-}
-
-.info h2 {
-    color: tomato;
-    font-family: 'acetate';
-}   
-
-.info a {
-    text-decoration: none;
-    color: tomato;    
-}
-
