@@ -4,6 +4,12 @@
     font-weight: bold;
 }
 
+@font-face {
+    src: url(ObjectSans-Slanted.otf);
+    font-family: 'service';
+    font-weight: bold;
+}
+
 body {
     overflow: hidden;
     margin: 0;
@@ -50,6 +56,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'acetate';
+}
+
+.centered a {
+    text-decoration: none;
+    color: white;
 }
 
 .shop {
@@ -106,7 +117,36 @@ body {
     color: black;
 }
 
-.centered a {
+.footer a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+.clients {
+    height: 100%;
+    width: 90%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    text-align: justify;
+}
+
+.clients h4 {
+    color: honeydew;
+    font-family: 'acetate';
+}    
+
+.clients a {
+    text-decoration: none;
+    color: honeydew;
+    font-family: 'service';
 }
