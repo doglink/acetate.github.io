@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
+@font-face {
+    src: url(ObjectSans-Heavy.otf);
+    font-family: 'acetateheavy';
+    font-weight: bold;
+}
+
 body {
     overflow: hidden;
     margin: 0;
@@ -150,3 +156,13 @@ body {
     color: honeydew;
     font-family: 'service';
 }
+
+.comingsoon {
+text-align: center;
+font-family: 'acetateheavy';
+}
+
+.comingsoon h1 {
+color: white;
+}
+
