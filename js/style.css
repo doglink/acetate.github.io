@@ -176,3 +176,12 @@ font-size: 5rem;
     height: 100%;
     width: 100%;
 }
+
+.back {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    font-family: 'acetate';
+    bottom: 5%;
+}
