@@ -185,3 +185,17 @@ font-size: 5rem;
     font-family: 'acetate';
     bottom: 15%;
 }
+
+.fillform {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    font-family: 'acetate';
+    top: 15%;
+}
+
+.fillform h1 {
+    color: black;
+    font-family: 'acetate';
+} 
