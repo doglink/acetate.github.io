@@ -149,11 +149,12 @@ body {
 .clients h4 {
     color: honeydew;
     font-family: 'acetate';
+    font-size: 2vw;
 }    
 
 .clients a {
     text-decoration: none;
-    color: honeydew;
+    color: beige;
     font-family: 'service';
 }
 
