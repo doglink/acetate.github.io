@@ -158,15 +158,14 @@ body {
 }
 
 .comingsoon {
-    transform: translate(0%, 200%);
+    padding-top: 10%;
     text-align: center;
-
 }
 
 .comingsoon h1 {
 color: white;
 display: inline;
-font-size: 3rem;
+font-size: 10vw;
 font-family: 'acetate';
 }
 
