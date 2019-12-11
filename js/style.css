@@ -10,7 +10,9 @@
     font-weight: bold;
 }
 
-/*this font was kindly downloaded from pangrampangram.com*/
+/*this fonts were downloaded 
+from pangrampangram.com*/
+/*thank you so much*/
 
 body {
     overflow: hidden;
@@ -156,14 +158,16 @@ body {
 }
 
 .comingsoon {
-text-align: center;
-font-family: 'acetate';
+    transform: translate(0%, 200%);
+    text-align: center;
+
 }
 
-.comingsoon q {
+.comingsoon h1 {
 color: white;
-quotes: " " " ";
-font-size: 5rem;
+display: inline;
+font-size: 3rem;
+font-family: 'acetate';
 }
 
 .form {
